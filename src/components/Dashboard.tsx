@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { FileUp, FileText, Edit, Download, Trash2, ChevronRight, CheckCircle, AlertCircle, Clock } from "lucide-react";
+import { FileUp, FileText, Edit, Download, Trash2, ChevronRight, CheckCircle, AlertCircle, Clock, Sparkles } from "lucide-react";
 import { useCallback, useState } from "react";
 import { cn } from "@/lib/utils";
 
