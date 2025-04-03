@@ -1,5 +1,4 @@
-
-import { Code, GitHub, Twitter, Linkedin, Mail } from "lucide-react";
+import { Code, Github, Twitter, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -20,7 +19,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary">
-                <GitHub className="h-5 w-5" />
+                <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary">
