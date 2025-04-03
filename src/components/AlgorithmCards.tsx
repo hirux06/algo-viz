@@ -42,7 +42,7 @@ const algorithms = [
     description: "Optimization algorithm that iteratively adjusts parameters to minimize a cost function.",
     icon: LineChart,
     bgClass: "from-purple-500/20 to-violet-400/20",
-    complexity: "O(n·i)",
+    complexity: "O(n*i)",
     spaceComplexity: "O(n)",
     primaryUse: "Machine learning, neural networks"
   },
