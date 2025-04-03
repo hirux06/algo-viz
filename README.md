@@ -1,5 +1,6 @@
-
-# AlgoViz: Algorithm Visualization Platform
+<div align="center">
+  <h1>AlgoViz: Algorithm Visualization Platform</h1>
+</div>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/deac63b5-3c52-484b-a291-f6ef928ac9de" alt="AlgoViz Logo" width="200" />
