@@ -12,9 +12,9 @@ const teamMembers = [
     role: "Algorithm Designer & Frontend Developer",
     bio: "Machine learning enthusiast with experience in scalable algorithm design and optimization.",
     image: "/public/faceonly.jpg",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "mailto:saran@example.com"
+    github: "https://github.com/hirux06",
+    linkedin: "https://linkedin.com/in/saran-hiruthik-m",
+    email: "mailto:saran.hiruthik83@gmail.com"
   },
   {
     name: "Shivanesh M C",
@@ -22,8 +22,8 @@ const teamMembers = [
     bio: "Passionate about creating interactive visualizations and building performant web applications.",
     image: "/public/shi.jpg",
     github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    email: "mailto:shivanesh@example.com"
+    linkedin: "https://www.linkedin.com/in/shivanesh-m-c-9aa8a12a3",
+    email: "mailto:mcshivanesh777@gmail.com"
   },
   {
     name: "Hemanth Kumar G T",
@@ -38,7 +38,7 @@ const teamMembers = [
     name: "Sarvvesh Kuppusamy",
     role: "UI/UX Designer & Developer",
     bio: "Creates intuitive interfaces that help users understand complex algorithms through visual learning.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "/public/sarvvs.jpg",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "mailto:sarvvesh@example.com"
