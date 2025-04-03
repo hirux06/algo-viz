@@ -29,7 +29,7 @@ const teamMembers = [
     name: "Hemanth Kumar G T",
     role: "Algorithm Researcher",
     bio: "Specializes in optimization algorithms and parallel computing techniques.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "mailto:hemanth@example.com"
