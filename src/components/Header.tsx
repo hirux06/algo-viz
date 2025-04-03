@@ -1,9 +1,10 @@
 
 import { Button } from "@/components/ui/button";
 import { ThemeSwitcher } from "./ThemeSwitcher";
-import { FileText, ChevronRight } from "lucide-react";
+import { Code, ChevronRight, BarChart2, Play, Users } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,14 +26,15 @@ export function Header() {
       scrolled ? "bg-background/80 backdrop-blur-lg shadow-sm" : "bg-transparent"
     )}>
       <div className="container flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <FileText className="h-6 w-6 text-primary" />
-          <span className="font-bold text-xl">ResumAI</span>
-        </div>
+        <Link to="/" className="flex items-center gap-2">
+          <Code className="h-6 w-6 text-primary" />
+          <span className="font-bold text-xl">AlgoViz</span>
+        </Link>
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a>
-          <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors">How it works</a>
-          <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">Dashboard</a>
+          <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">Home</Link>
+          <Link to="/comparison" className="text-muted-foreground hover:text-foreground transition-colors">Compare</Link>
+          <Link to="/live-demo" className="text-muted-foreground hover:text-foreground transition-colors">Live Demo</Link>
+          <Link to="/team" className="text-muted-foreground hover:text-foreground transition-colors">Team</Link>
         </nav>
         <div className="flex items-center gap-4">
           <ThemeSwitcher />

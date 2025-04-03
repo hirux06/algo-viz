@@ -1,5 +1,6 @@
 
-import { FileText } from "lucide-react";
+import { Code } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
@@ -8,34 +9,34 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <FileText className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">ResumAI</span>
+              <Code className="h-6 w-6 text-primary" />
+              <span className="font-bold text-xl">AlgoViz</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-xs">
-              AI-powered resume optimization to help you land your dream job.
+              Interactive visualization platform to understand scalable algorithms through hands-on experience.
             </p>
             <div className="text-sm text-muted-foreground">
-              © 2024 ResumAI. All rights reserved.
+              © 2025 AlgoViz. All rights reserved.
             </div>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Product</h3>
+            <h3 className="font-semibold mb-4">Explore</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Testimonials</a></li>
+              <li><Link to="/" className="text-muted-foreground hover:text-foreground transition-colors">Home</Link></li>
+              <li><Link to="/comparison" className="text-muted-foreground hover:text-foreground transition-colors">Algorithm Comparison</Link></li>
+              <li><Link to="/live-demo" className="text-muted-foreground hover:text-foreground transition-colors">Live Demonstrations</Link></li>
+              <li><Link to="/team" className="text-muted-foreground hover:text-foreground transition-colors">Team</Link></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Company</h3>
+            <h3 className="font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">About</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Careers</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Documentation</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">GitHub Repository</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Research Papers</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Contact Us</a></li>
             </ul>
           </div>
         </div>

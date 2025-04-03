@@ -1,10 +1,10 @@
 
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { Features } from "@/components/Features";
-import { HowItWorks } from "@/components/HowItWorks";
-import { Dashboard } from "@/components/Dashboard";
+import { AlgorithmCards } from "@/components/AlgorithmCards";
 import { Footer } from "@/components/Footer";
+import { ComparisonPreview } from "@/components/ComparisonPreview";
+import { DemoPreview } from "@/components/DemoPreview";
 
 const Index = () => {
   return (
@@ -12,9 +12,9 @@ const Index = () => {
       <Header />
       <main className="flex-1">
         <Hero />
-        <Features />
-        <HowItWorks />
-        <Dashboard />
+        <AlgorithmCards />
+        <ComparisonPreview />
+        <DemoPreview />
       </main>
       <Footer />
     </div>
