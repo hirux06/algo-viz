@@ -2,7 +2,7 @@
 # AlgoViz: Algorithm Visualization Platform
 
 <div align="center">
-  <img src="public/logo.png" alt="AlgoViz Logo" width="200" />
+  <img src="https://github.com/user-attachments/assets/deac63b5-3c52-484b-a291-f6ef928ac9de" alt="AlgoViz Logo" width="200" />
   <p><em>Interactive algorithm visualization to master computational complexity</em></p>
   
   <div>
@@ -27,9 +27,10 @@
   - Parallel Algorithms
 - **Responsive Design**: Fully responsive interface that works on desktop, tablet, and mobile devices.
 
-## 📊 Demo
+## 📊 Demo Image
 
-![Algorithm Comparison Demo](public/demo.png)
+![Demo Image](https://github.com/user-attachments/assets/d25b885c-c6c9-45bd-8cf2-d30ac42cbb27)
+
 
 ## 🧪 Algorithm Types
 
@@ -76,7 +77,7 @@ src/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/algoviz.git
+git clone https://github.com/hirux06/algo-viz.git
 cd algoviz
 ```
 
@@ -108,11 +109,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## 📬 Contact
 
-- Project Link: [https://github.com/yourusername/algoviz](https://github.com/yourusername/algoviz)
+- Project Link: [Project Live Link](https://algo-viz-eosin.vercel.app/)
+- Contributor: [Saran Hiruthik M](https://linkedin.com/in/saran-hiruthik-m)
 
 ---
 
