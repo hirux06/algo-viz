@@ -11,7 +11,7 @@ const teamMembers = [
     name: "Saran Hiruthik M",
     role: "Algorithm Designer & Frontend Developer",
     bio: "Machine learning enthusiast with experience in scalable algorithm design and optimization.",
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "/public/faceonly.jpg",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "mailto:saran@example.com"
@@ -20,7 +20,7 @@ const teamMembers = [
     name: "Shivanesh M C",
     role: "Full-Stack Developer",
     bio: "Passionate about creating interactive visualizations and building performant web applications.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "/public/shi.jpg",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
     email: "mailto:shivanesh@example.com"
