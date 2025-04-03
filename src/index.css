@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 260 84% 60%;
+    --primary: 255 70% 60%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96%;
@@ -33,7 +33,7 @@
     --input: 214 32% 91%;
     --ring: 222 84% 70%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
   }
 
   .dark {
@@ -46,7 +46,7 @@
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 260 84% 60%;
+    --primary: 255 70% 60%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 217 33% 17%;
@@ -76,22 +76,68 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
 }
 
 @layer components {
   .glass-card {
-    @apply bg-white/70 dark:bg-slate-900/70 backdrop-blur-md border border-white/20 dark:border-slate-700/30 shadow-xl;
+    @apply bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border border-white/30 dark:border-slate-700/40 shadow-xl rounded-xl;
   }
   
   .glass-card-subtle {
-    @apply bg-white/40 dark:bg-slate-900/40 backdrop-blur-sm border border-white/10 dark:border-slate-700/20 shadow-lg;
+    @apply bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm border border-white/20 dark:border-slate-700/30 shadow-lg rounded-xl;
   }
   
   .neumorphic {
-    @apply bg-secondary/80 shadow-[5px_5px_10px_rgba(0,0,0,0.05),-5px_-5px_10px_rgba(255,255,255,0.8)] dark:shadow-[5px_5px_10px_rgba(0,0,0,0.2),-5px_-5px_10px_rgba(255,255,255,0.05)];
+    @apply bg-secondary/90 shadow-[6px_6px_12px_rgba(0,0,0,0.06),-6px_-6px_12px_rgba(255,255,255,0.8)] dark:shadow-[5px_5px_10px_rgba(0,0,0,0.2),-5px_-5px_10px_rgba(255,255,255,0.05)] rounded-xl;
   }
   
   .hover-scale {
-    @apply transition-transform duration-300 hover:scale-[1.03];
+    @apply transition-transform duration-300 hover:scale-[1.02];
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold tracking-tight md:text-4xl mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent inline-block;
+  }
+  
+  .section-subtitle {
+    @apply text-muted-foreground text-lg mb-10 max-w-2xl mx-auto;
+  }
+  
+  .section-container {
+    @apply container px-4 py-16 md:py-24;
+  }
+  
+  .btn-gradient {
+    @apply bg-gradient-to-r from-primary to-accent hover:opacity-90 text-white font-medium transition-all;
+  }
+  
+  .card-highlight {
+    @apply border-l-4 border-primary;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
   }
 }

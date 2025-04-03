@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -73,6 +72,14 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)'
       },
+      boxShadow: {
+        'soft-sm': '0 2px 10px rgba(0, 0, 0, 0.05)',
+        'soft-md': '0 4px 20px rgba(0, 0, 0, 0.08)',
+        'soft-lg': '0 8px 30px rgba(0, 0, 0, 0.12)',
+        'inner-soft': 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
+        'colored-sm': '0 4px 14px 0 rgba(79, 70, 229, 0.2)',
+        'colored-md': '0 6px 20px 0 rgba(79, 70, 229, 0.3)'
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -101,6 +108,14 @@ export default {
         "pulse-subtle": {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.8" }
+        },
+        "gradient-flow": {
+          "0%, 100%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" }
+        },
+        "reveal": {
+          "0%": { transform: "translateY(20px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" }
         }
       },
       animation: {
@@ -110,12 +125,17 @@ export default {
         "fade-out": "fade-out 0.2s ease-out",
         "scale-in": "scale-in 0.2s ease-out",
         "slide-up": "slide-up 0.3s ease-out",
-        "pulse-subtle": "pulse-subtle 2s ease-in-out infinite"
+        "pulse-subtle": "pulse-subtle 2s ease-in-out infinite",
+        "gradient-flow": "gradient-flow 3s ease infinite",
+        "reveal": "reveal 0.5s ease-out forwards"
       },
       backdropFilter: {
         'none': 'none',
         'blur': 'blur(8px)',
       },
+      transitionTimingFunction: {
+        'elastic': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)'
+      }
     }
   },
   plugins: [require("tailwindcss-animate")],

@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { ComparisonPreview } from "@/components/ComparisonPreview";
 import { DemoPreview } from "@/components/DemoPreview";
 import { AlgorithmPresentation } from "@/components/AlgorithmPresentation";
+import { Features } from "@/components/Features";
 
 const Index = () => {
   return (
@@ -13,10 +14,11 @@ const Index = () => {
       <Header />
       <main className="flex-1">
         <Hero />
+        <Features />
         <AlgorithmCards />
-        <AlgorithmPresentation />
-        <ComparisonPreview />
         <DemoPreview />
+        <ComparisonPreview />
+        <AlgorithmPresentation />
       </main>
       <Footer />
     </div>
